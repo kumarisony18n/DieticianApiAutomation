@@ -1,4 +1,4 @@
-package StepDefinition;
+package BaseClass;
 
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
