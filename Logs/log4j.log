@@ -1,0 +1,1077 @@
+2022-07-23 13:51:04 INFO  Logs:51 - ********* GetAll Request started *************
+2022-07-23 13:51:04 INFO  Logs:49 - ********* Get Request started *************
+2022-07-23 13:51:04 INFO  Logs:50 -  URL : http://127.0.0.1:5000/api/Morbidity
+2022-07-23 13:51:05 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:05 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:05 INFO  Logs:154 - {
+    "Items": [
+        {
+            "MorbidityTestName": "Blood glucose",
+            "MorbidityTestUnit": " mg/dL",
+            "MorbidityMarkerRef": "150",
+            "MorbidityName": "$$$$$$$",
+            "MorbidityTestId": "$$$_BLO"
+        },
+        {
+            "MorbidityTestName": "Blood8",
+            "MorbidityTestUnit": "cg/gL",
+            "MorbidityMarkerRef": "40-50",
+            "MorbidityName": "Diabetes_Z",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": " anti-Cyclic Citrullinated Peptide (CCP)",
+            "MorbidityMarkerRef": "[4, 23]",
+            "MorbidityName": "Rheumatoid Arthritis",
+            "MorbidityTestId": "RHEU_CCF"
+        },
+        {
+            "MorbidityTestName": "Triiodothyronine (T3) ",
+            "MorbidityTestUnit": "rr/kk",
+            "MorbidityMarkerRef": "100-50",
+            "MorbidityName": "Hypothyroidism",
+            "MorbidityTestId": "HYPO_T3"
+        },
+        {
+            "MorbidityTestName": "Triiodothyronine (T4)",
+            "MorbidityName": "Hypothyroidism",
+            "MorbidityTestId": "THY_T4"
+        },
+        {
+            "MorbidityTestName": "string",
+            "MorbidityTestUnit": "string",
+            "MorbidityMarkerRef": "string",
+            "MorbidityName": "string",
+            "MorbidityTestId": "STR_STR"
+        },
+        {
+            "MorbidityTestName": " ",
+            "MorbidityTestUnit": "mg/dL",
+            "MorbidityMarkerRef": "100 – 125",
+            "MorbidityName": "Diabetes",
+            "MorbidityTestId": "DIA_ "
+        },
+        {
+            "MorbidityTestName": "$$$$$$$$$$$$$$",
+            "MorbidityTestUnit": " mg/dL",
+            "MorbidityMarkerRef": "150",
+            "MorbidityName": "Diabetes",
+            "MorbidityTestId": "DIA_$$$"
+        },
+        {
+            "MorbidityTestName": "Blood2",
+            "MorbidityTestUnit": "mg/dL",
+            "MorbidityMarkerRef": "100 – 125",
+            "MorbidityName": "Diabetes",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": "hhh",
+            "MorbidityTestUnit": "mg/dL",
+            "MorbidityMarkerRef": "100 – 125",
+            "MorbidityName": "Diabetes",
+            "MorbidityTestId": "DIA_HHH"
+        },
+        {
+            "MorbidityTestName": "Null",
+            "MorbidityTestUnit": "Null",
+            "MorbidityMarkerRef": "Null",
+            "MorbidityName": "Diabetes",
+            "MorbidityTestId": "DIA_NUL"
+        },
+        {
+            "MorbidityTestName": "Blood Pressure Levels",
+            "MorbidityTestUnit": "uu/ll",
+            "MorbidityMarkerRef": "78-90",
+            "MorbidityName": "Diabetes 3",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": "$$$$$",
+            "MorbidityTestUnit": " mg/dL",
+            "MorbidityMarkerRef": "150",
+            "MorbidityName": "BBlood glucose",
+            "MorbidityTestId": "BBL_$$$"
+        },
+        {
+            "MorbidityTestName": "Blood glucose",
+            "MorbidityTestUnit": " mg/dL",
+            "MorbidityMarkerRef": "150",
+            "MorbidityName": "BBlood glucose",
+            "MorbidityTestId": "BBL_BLO"
+        },
+        {
+            "MorbidityTestName": "Blood8",
+            "MorbidityTestUnit": "mg/gL",
+            "MorbidityMarkerRef": "100 - 150",
+            "MorbidityName": "Diabetes Lop",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": "Null",
+            "MorbidityTestUnit": "Null",
+            "MorbidityMarkerRef": "Null",
+            "MorbidityName": "Null",
+            "MorbidityTestId": "NUL_NUL"
+        },
+        {
+            "MorbidityTestName": "Blood9",
+            "MorbidityTestUnit": "ll/kk",
+            "MorbidityMarkerRef": "70-80",
+            "MorbidityName": "Diabetes_K",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": "Blood glucose ",
+            "MorbidityTestUnit": " mg/dL",
+            "MorbidityMarkerRef": "100 – 125",
+            "MorbidityName": "Pre Diabetes",
+            "MorbidityTestId": "PDIA_BG"
+        },
+        {
+            "MorbidityTestName": "Blood glucose1",
+            "MorbidityTestUnit": "mg/dL",
+            "MorbidityMarkerRef": "100 – 125",
+            "MorbidityName": "Pre Diabetes",
+            "MorbidityTestId": "PRE_BLO"
+        },
+        {
+            "MorbidityTestName": "Blood19",
+            "MorbidityTestUnit": "mg/uL",
+            "MorbidityMarkerRef": "100",
+            "MorbidityName": "Fever test019",
+            "MorbidityTestId": "FEV_BLO"
+        },
+        {
+            "MorbidityTestName": "Blood Pressure Levels",
+            "MorbidityTestUnit": "mm Hg",
+            "MorbidityMarkerRef": "80 or higher",
+            "MorbidityName": "Hypotension",
+            "MorbidityTestId": "HPOT_BP"
+        },
+        {
+            "MorbidityTestName": "Blood Pressure Levels",
+            "MorbidityTestUnit": "mm Hg",
+            "MorbidityMarkerRef": "130  or higher",
+            "MorbidityName": "Hypertension",
+            "MorbidityTestId": "HPT_BP"
+        },
+        {
+            "MorbidityTestName": "Blood10",
+            "MorbidityTestUnit": "cg/aL",
+            "MorbidityMarkerRef": "60-70",
+            "MorbidityName": "Diabetes_L",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": "Blood Pressure Levels",
+            "MorbidityTestUnit": "yy/mm",
+            "MorbidityMarkerRef": "45-90 ",
+            "MorbidityName": "Diabetes Type2",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": "10",
+            "MorbidityTestUnit": " mg/dL",
+            "MorbidityMarkerRef": "150  or higher",
+            "MorbidityName": "Diabetes 5",
+            "MorbidityTestId": "DIA_10"
+        },
+        {
+            "MorbidityTestName": "Blood8",
+            "MorbidityTestUnit": "mg/gL",
+            "MorbidityMarkerRef": "100 - 150",
+            "MorbidityName": "Diabetes 5",
+            "MorbidityTestId": "DIA_BLO"
+        },
+        {
+            "MorbidityTestName": "Blood glucose1",
+            "MorbidityTestUnit": "mg/dL",
+            "MorbidityMarkerRef": "100 – 125",
+            "MorbidityName": " ",
+            "MorbidityTestId": " _BLO"
+        }
+    ]
+}
+2022-07-23 13:51:06 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:06 INFO  Logs:57 - ********* Get Request Ended *************
+2022-07-23 13:51:06 INFO  Logs:58 -  Get request status code : 200
+2022-07-23 13:51:06 INFO  Logs:71 - ************** Schema Validation ************************* 
+2022-07-23 13:51:07 INFO  Logs:76 - Schema validation success
+2022-07-23 13:51:07 INFO  Logs:78 - Schema validation status code : 200
+2022-07-23 13:51:07 INFO  Logs:79 - ********* GetAll Request Ended *************
+2022-07-23 13:51:07 INFO  Logs:88 - ********* Get MorbididtyName Request started *************
+2022-07-23 13:51:08 INFO  Logs:49 - ********* Get Request started *************
+2022-07-23 13:51:08 INFO  Logs:50 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:08 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:08 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:08 INFO  Logs:154 - {
+    "Items": [
+        {
+            "MorbidityTestName": "Blood9",
+            "MorbidityTestUnit": "ll/kk",
+            "MorbidityMarkerRef": "70-80",
+            "MorbidityName": "Diabetes_K",
+            "MorbidityTestId": "DIA_BLO"
+        }
+    ]
+}
+2022-07-23 13:51:08 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:08 INFO  Logs:57 - ********* Get Request Ended *************
+2022-07-23 13:51:08 INFO  Logs:95 - MorbidityName=Diabetes_K
+2022-07-23 13:51:08 INFO  Logs:96 - io.restassured.internal.RestAssuredResponseImpl@2270f58d
+2022-07-23 13:51:08 INFO  Logs:220 -  Response status code : 200
+2022-07-23 13:51:08 INFO  Logs:116 - ************** Schema Validation ************************* 
+2022-07-23 13:51:08 INFO  Logs:121 - Schema validation success
+2022-07-23 13:51:08 INFO  Logs:123 - Schema validation status code : 200
+2022-07-23 13:51:08 INFO  Logs:124 - ********* Get MorbididtyName Request ended *************
+2022-07-23 13:51:08 INFO  Logs:88 - ********* Get MorbididtyName Request started *************
+2022-07-23 13:51:08 INFO  Logs:49 - ********* Get Request started *************
+2022-07-23 13:51:08 INFO  Logs:50 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:08 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:08 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:08 INFO  Logs:154 - {
+    "Items": [
+        {
+            "MorbidityName": "Hypothyroidism"
+        },
+        {
+            "MorbidityTestUnit": "NUll",
+            "MorbidityMarkerRef": "NUll"
+        },
+        {
+            "MorbidityTestUnit": "nanograms per deciliter (ng/dL) and nanomoles per liter (nmol/L)",
+            "MorbidityMarkerRef": " between 60 and 180(ng/dL), between .82 and 3.76 (nmol/L)"
+        },
+        {
+            "MorbidityTestName": "Triiodothyronine (T3) ",
+            "MorbidityTestUnit": "rr/kk",
+            "MorbidityMarkerRef": "100-50",
+            "MorbidityName": "Hypothyroidism",
+            "MorbidityTestId": "HYPO_T3"
+        },
+        {
+            "MorbidityTestName": "Triiodothyronine (T4)",
+            "MorbidityName": "Hypothyroidism",
+            "MorbidityTestId": "THY_T4"
+        }
+    ]
+}
+2022-07-23 13:51:08 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:08 INFO  Logs:57 - ********* Get Request Ended *************
+2022-07-23 13:51:08 INFO  Logs:95 - MorbidityName=Hypothyroidism
+2022-07-23 13:51:08 INFO  Logs:96 - io.restassured.internal.RestAssuredResponseImpl@614cbec4
+2022-07-23 13:51:08 INFO  Logs:220 -  Response status code : 200
+2022-07-23 13:51:08 INFO  Logs:116 - ************** Schema Validation ************************* 
+2022-07-23 13:51:08 INFO  Logs:121 - Schema validation success
+2022-07-23 13:51:08 INFO  Logs:123 - Schema validation status code : 200
+2022-07-23 13:51:08 INFO  Logs:124 - ********* Get MorbididtyName Request ended *************
+2022-07-23 13:51:09 INFO  Logs:132 - ********* Get Invalid MorbidityTestId Request started *************
+2022-07-23 13:51:09 INFO  Logs:49 - ********* Get Request started *************
+2022-07-23 13:51:09 INFO  Logs:50 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:09 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:09 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:09 INFO  Logs:154 - {
+    "message": "Internal Server Error"
+}
+2022-07-23 13:51:09 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:09 INFO  Logs:57 - ********* Get Request Ended *************
+2022-07-23 13:51:09 INFO  Logs:139 - MorbidityTestId=DIA_BLO
+2022-07-23 13:51:09 INFO  Logs:140 - io.restassured.internal.RestAssuredResponseImpl@3d8bd881
+2022-07-23 13:51:09 INFO  Logs:220 -  Response status code : 500
+2022-07-23 13:51:09 INFO  Logs:158 - ************** Schema Validation ************************* 
+2022-07-23 13:51:09 INFO  Logs:165 - Schema validation status code : 500
+2022-07-23 13:51:09 INFO  Logs:166 - ********* Get Invalid MorbidityTestId Request ended *************
+2022-07-23 13:51:09 INFO  Logs:132 - ********* Get Invalid MorbidityTestId Request started *************
+2022-07-23 13:51:09 INFO  Logs:49 - ********* Get Request started *************
+2022-07-23 13:51:09 INFO  Logs:50 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:09 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:09 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:09 INFO  Logs:154 - {
+    "message": "Internal Server Error"
+}
+2022-07-23 13:51:09 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:09 INFO  Logs:57 - ********* Get Request Ended *************
+2022-07-23 13:51:09 INFO  Logs:139 - MorbidityTestId=HYPO_T3
+2022-07-23 13:51:09 INFO  Logs:140 - io.restassured.internal.RestAssuredResponseImpl@46fa2a7e
+2022-07-23 13:51:09 INFO  Logs:220 -  Response status code : 500
+2022-07-23 13:51:09 INFO  Logs:158 - ************** Schema Validation ************************* 
+2022-07-23 13:51:09 INFO  Logs:165 - Schema validation status code : 500
+2022-07-23 13:51:09 INFO  Logs:166 - ********* Get Invalid MorbidityTestId Request ended *************
+2022-07-23 13:51:09 INFO  Logs:176 - ********* Get MorbidityTestId Request started *************
+2022-07-23 13:51:09 INFO  Logs:49 - ********* Get Request started *************
+2022-07-23 13:51:09 INFO  Logs:50 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:09 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:09 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:09 INFO  Logs:154 - {
+    "message": "Internal Server Error"
+}
+2022-07-23 13:51:09 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:09 INFO  Logs:57 - ********* Get Request Ended *************
+2022-07-23 13:51:09 INFO  Logs:183 - MorbidityTestId=DOL_PI
+2022-07-23 13:51:09 INFO  Logs:184 - io.restassured.internal.RestAssuredResponseImpl@6bf54260
+2022-07-23 13:51:09 INFO  Logs:220 -  Response status code : 500
+2022-07-23 13:51:09 INFO  Logs:203 - ************** Schema Validation ************************* 
+2022-07-23 13:51:09 INFO  Logs:210 - Schema validation status code : 500
+2022-07-23 13:51:09 INFO  Logs:211 - ********* Get MorbidityTestId Request ended *************
+2022-07-23 13:51:09 INFO  Logs:176 - ********* Get MorbidityTestId Request started *************
+2022-07-23 13:51:09 INFO  Logs:49 - ********* Get Request started *************
+2022-07-23 13:51:09 INFO  Logs:50 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:09 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:09 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:09 INFO  Logs:154 - {
+    "message": "Internal Server Error"
+}
+2022-07-23 13:51:09 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:09 INFO  Logs:57 - ********* Get Request Ended *************
+2022-07-23 13:51:09 INFO  Logs:183 - MorbidityTestId=DOL_KJ
+2022-07-23 13:51:09 INFO  Logs:184 - io.restassured.internal.RestAssuredResponseImpl@33568e26
+2022-07-23 13:51:09 INFO  Logs:220 -  Response status code : 500
+2022-07-23 13:51:09 INFO  Logs:203 - ************** Schema Validation ************************* 
+2022-07-23 13:51:09 INFO  Logs:210 - Schema validation status code : 500
+2022-07-23 13:51:09 INFO  Logs:211 - ********* Get MorbidityTestId Request ended *************
+2022-07-23 13:51:09 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood8","MorbidityTestUnit":"mg\/gL","MorbidityName":"Diabetes 5","MorbidityMarkerRef":"100 - 150"}
+2022-07-23 13:51:09 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:09 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:10 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:10 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:10 INFO  Logs:154 - {
+    "MorbidityTestId": "DIA_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:10 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:10 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:10 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:10 INFO  Logs:457 - Row : 1  --->  DIA_BLO : Morbidity successful created.
+2022-07-23 13:51:10 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood9","MorbidityTestUnit":"mg\/uL","MorbidityName":"Diabetes Type2","MorbidityMarkerRef":"200 - 250"}
+2022-07-23 13:51:10 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:10 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:10 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:10 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:10 INFO  Logs:154 - {
+    "MorbidityTestId": "DIA_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:10 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:10 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:10 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:10 INFO  Logs:457 - Row : 2  --->  DIA_BLO : Morbidity successful created.
+2022-07-23 13:51:10 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood21","MorbidityTestUnit":"mg\/uL","MorbidityName":"Diabetes Lop Invalid","MorbidityMarkerRef":""}
+2022-07-23 13:51:10 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:10 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:10 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:10 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:10 INFO  Logs:154 - {
+    "Message": "Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']"
+}
+2022-07-23 13:51:10 INFO  Logs:158 -  Output Message : Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']
+2022-07-23 13:51:10 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:10 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:10 INFO  Logs:459 - Row : 3  --->  Error Message : Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']
+2022-07-23 13:51:10 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood1","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test001","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:10 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:10 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:11 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:11 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:11 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:11 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:11 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:11 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:12 INFO  Logs:457 - Row : 4  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:12 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood2","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test002","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:12 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:12 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:13 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:13 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:13 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:13 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:13 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:13 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:13 INFO  Logs:457 - Row : 5  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:13 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood3","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test003","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:13 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:13 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:13 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:13 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:13 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:14 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:14 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:14 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:14 INFO  Logs:457 - Row : 6  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:14 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood4","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test004","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:14 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:14 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:14 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:14 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:14 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:14 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:14 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:14 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:14 INFO  Logs:457 - Row : 7  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:14 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood5","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test005","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:14 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:14 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:14 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:14 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:14 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:14 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:14 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:14 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:14 INFO  Logs:457 - Row : 8  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:14 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood6","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test006","MorbidityMarkerRef":""}
+2022-07-23 13:51:14 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:14 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:14 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:14 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:14 INFO  Logs:154 - {
+    "Message": "Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']"
+}
+2022-07-23 13:51:14 INFO  Logs:158 -  Output Message : Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']
+2022-07-23 13:51:14 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:14 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:15 INFO  Logs:459 - Row : 9  --->  Error Message : Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']
+2022-07-23 13:51:15 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood7","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test007","MorbidityMarkerRef":""}
+2022-07-23 13:51:15 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:15 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:15 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:15 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:15 INFO  Logs:154 - {
+    "Message": "Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']"
+}
+2022-07-23 13:51:15 INFO  Logs:158 -  Output Message : Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']
+2022-07-23 13:51:15 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:15 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:15 INFO  Logs:459 - Row : 10  --->  Error Message : Missing Items OR Invalid Entry.Check on ['MorbidityMarkerRef']
+2022-07-23 13:51:15 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood8","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test008","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:15 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:15 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:15 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:15 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:15 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:15 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:15 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:15 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:16 INFO  Logs:457 - Row : 11  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:16 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood9","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test009","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:16 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:16 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:16 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:16 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:16 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:16 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:16 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:16 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:16 INFO  Logs:457 - Row : 12  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:16 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood10","MorbidityTestUnit":"","MorbidityName":"Fever test010","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:16 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:16 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:16 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:16 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:16 INFO  Logs:154 - {
+    "Message": "Missing Items OR Invalid Entry.Check on ['MorbidityTestUnit']"
+}
+2022-07-23 13:51:16 INFO  Logs:158 -  Output Message : Missing Items OR Invalid Entry.Check on ['MorbidityTestUnit']
+2022-07-23 13:51:16 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:16 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:16 INFO  Logs:459 - Row : 13  --->  Error Message : Missing Items OR Invalid Entry.Check on ['MorbidityTestUnit']
+2022-07-23 13:51:16 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood11","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test011","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:16 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:16 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:16 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:16 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:16 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:16 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:16 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:16 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:17 INFO  Logs:457 - Row : 14  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:17 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood12","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test012","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:17 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:17 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:17 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:17 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:17 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:17 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:17 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:17 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:17 INFO  Logs:457 - Row : 15  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:17 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood13","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test013","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:17 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:17 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:17 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:17 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:17 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:17 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:17 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:17 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:17 INFO  Logs:457 - Row : 16  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:17 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood14","MorbidityTestUnit":"mg\/uL","MorbidityName":"","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:17 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:17 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:17 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:17 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:17 INFO  Logs:154 - {
+    "Message": "Missing Items OR Invalid Entry.Check on ['MorbidityName']"
+}
+2022-07-23 13:51:17 INFO  Logs:158 -  Output Message : Missing Items OR Invalid Entry.Check on ['MorbidityName']
+2022-07-23 13:51:17 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:17 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:17 INFO  Logs:459 - Row : 17  --->  Error Message : Missing Items OR Invalid Entry.Check on ['MorbidityName']
+2022-07-23 13:51:17 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood15","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test015","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:17 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:17 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:19 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:19 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:19 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:19 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:19 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:19 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:19 INFO  Logs:457 - Row : 18  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:19 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood16","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test016","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:19 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:19 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:19 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:19 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:19 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:19 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:19 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:19 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:19 INFO  Logs:457 - Row : 19  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:19 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood17","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test017","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:19 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:19 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:19 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:19 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:19 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:19 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:20 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:20 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:20 INFO  Logs:457 - Row : 20  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:20 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood18","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test018","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:20 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:20 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:20 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:20 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:20 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:20 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:20 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:20 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:20 INFO  Logs:457 - Row : 21  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:20 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test019","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:20 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:20 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:20 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:20 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:20 INFO  Logs:154 - {
+    "Message": "Missing Items OR Invalid Entry.Check on ['MorbidityTestName']"
+}
+2022-07-23 13:51:20 INFO  Logs:158 -  Output Message : Missing Items OR Invalid Entry.Check on ['MorbidityTestName']
+2022-07-23 13:51:20 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:20 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:20 INFO  Logs:459 - Row : 22  --->  Error Message : Missing Items OR Invalid Entry.Check on ['MorbidityTestName']
+2022-07-23 13:51:20 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood20","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test020","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:20 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:20 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:20 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:20 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:20 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:20 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:20 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:20 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:20 INFO  Logs:457 - Row : 23  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:20 INFO  Logs:239 -  POST jsonData {"MorbidityTestName":"Blood21","MorbidityTestUnit":"mg\/uL","MorbidityName":"Fever test021","MorbidityMarkerRef":"100"}
+2022-07-23 13:51:20 INFO  Logs:63 - ********* Post Request started *************
+2022-07-23 13:51:20 INFO  Logs:64 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:22 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:22 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:22 INFO  Logs:154 - {
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Morbidity successful created."
+}
+2022-07-23 13:51:22 INFO  Logs:158 -  Output Message : Morbidity successful created.
+2022-07-23 13:51:22 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:22 INFO  Logs:72 - ********* Post Request Ended *************
+2022-07-23 13:51:22 INFO  Logs:457 - Row : 24  --->  FEV_BLO : Morbidity successful created.
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 1 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 2 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 3 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 4 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 5 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 6 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 7 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 8 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 9 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 10 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 11 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 12 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 13 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 14 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 15 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 16 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 17 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 18 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 19 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 20 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 21 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 22 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 23 status code : 200
+2022-07-23 13:51:22 INFO  Logs:261 -  Post request row 24 status code : 200
+2022-07-23 13:51:22 INFO  Logs:275 - ************** Schema Validation ************************* 
+2022-07-23 13:51:22 INFO  Logs:280 - Schema validation success
+2022-07-23 13:51:22 INFO  Logs:282 - Schema validation status code : 200
+2022-07-23 13:51:22 INFO  Logs:93 - ********* Put Request started *************
+2022-07-23 13:51:22 INFO  Logs:94 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:23 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:23 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:23 INFO  Logs:154 - {
+    "MorbidityTestId": "DIA_BLO",
+    "MorbidityName": "Diabetes_Z",
+    "MorbidityMarkerRef": "40-50",
+    "MorbidityTestUnit": "cg/gL",
+    "Message": "Successfully Updated."
+}
+2022-07-23 13:51:23 INFO  Logs:158 -  Output Message : Successfully Updated.
+2022-07-23 13:51:23 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:23 INFO  Logs:102 - ********* Put Request Ended *************
+2022-07-23 13:51:23 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:23 INFO  Logs:328 - ************** Schema Validation ************************* 
+2022-07-23 13:51:23 INFO  Logs:333 - Schema validation success
+2022-07-23 13:51:23 INFO  Logs:335 - Schema validation status code : 200
+2022-07-23 13:51:23 INFO  Logs:93 - ********* Put Request started *************
+2022-07-23 13:51:23 INFO  Logs:94 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:23 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:23 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:23 INFO  Logs:154 - {
+    "MorbidityTestId": "DIA_BLO",
+    "MorbidityName": "Diabetes_K",
+    "MorbidityMarkerRef": "70-80",
+    "MorbidityTestUnit": "ll/kk",
+    "Message": "Successfully Updated."
+}
+2022-07-23 13:51:23 INFO  Logs:158 -  Output Message : Successfully Updated.
+2022-07-23 13:51:23 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:23 INFO  Logs:102 - ********* Put Request Ended *************
+2022-07-23 13:51:23 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:23 INFO  Logs:328 - ************** Schema Validation ************************* 
+2022-07-23 13:51:23 INFO  Logs:333 - Schema validation success
+2022-07-23 13:51:23 INFO  Logs:335 - Schema validation status code : 200
+2022-07-23 13:51:23 INFO  Logs:93 - ********* Put Request started *************
+2022-07-23 13:51:23 INFO  Logs:94 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:23 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:23 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:23 INFO  Logs:154 - {
+    "MorbidityTestId": "DIA_BLO",
+    "MorbidityName": "Diabetes_L",
+    "MorbidityMarkerRef": "60-70",
+    "MorbidityTestUnit": "cg/aL",
+    "Message": "Successfully Updated."
+}
+2022-07-23 13:51:23 INFO  Logs:158 -  Output Message : Successfully Updated.
+2022-07-23 13:51:23 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:23 INFO  Logs:102 - ********* Put Request Ended *************
+2022-07-23 13:51:23 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:23 INFO  Logs:328 - ************** Schema Validation ************************* 
+2022-07-23 13:51:23 INFO  Logs:333 - Schema validation success
+2022-07-23 13:51:23 INFO  Logs:335 - Schema validation status code : 200
+2022-07-23 13:51:24 INFO  Logs:93 - ********* Put Request started *************
+2022-07-23 13:51:24 INFO  Logs:94 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:24 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:24 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:24 INFO  Logs:154 - {
+    "MorbidityTestId": "HYPO_T3",
+    "MorbidityName": "Hypothyroidism",
+    "MorbidityMarkerRef": "100-50",
+    "MorbidityTestUnit": "rr/kk",
+    "Message": "Successfully Updated."
+}
+2022-07-23 13:51:24 INFO  Logs:158 -  Output Message : Successfully Updated.
+2022-07-23 13:51:24 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:24 INFO  Logs:102 - ********* Put Request Ended *************
+2022-07-23 13:51:24 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:24 INFO  Logs:328 - ************** Schema Validation ************************* 
+2022-07-23 13:51:24 INFO  Logs:333 - Schema validation success
+2022-07-23 13:51:24 INFO  Logs:335 - Schema validation status code : 200
+2022-07-23 13:51:24 INFO  Logs:93 - ********* Put Request started *************
+2022-07-23 13:51:24 INFO  Logs:94 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:24 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:24 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:24 INFO  Logs:154 - {
+    "MorbidityTestId": "DIA_BLO",
+    "MorbidityName": "Diabetes 3",
+    "MorbidityMarkerRef": "78-90",
+    "MorbidityTestUnit": "uu/ll",
+    "Message": "Successfully Updated."
+}
+2022-07-23 13:51:24 INFO  Logs:158 -  Output Message : Successfully Updated.
+2022-07-23 13:51:24 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:24 INFO  Logs:102 - ********* Put Request Ended *************
+2022-07-23 13:51:24 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:24 INFO  Logs:328 - ************** Schema Validation ************************* 
+2022-07-23 13:51:24 INFO  Logs:333 - Schema validation success
+2022-07-23 13:51:24 INFO  Logs:335 - Schema validation status code : 200
+2022-07-23 13:51:24 INFO  Logs:93 - ********* Put Request started *************
+2022-07-23 13:51:24 INFO  Logs:94 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:25 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:25 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:25 INFO  Logs:154 - {
+    "MorbidityTestId": "DIA_BLO",
+    "MorbidityName": "Diabetes Type2",
+    "MorbidityMarkerRef": "45-90 ",
+    "MorbidityTestUnit": "yy/mm",
+    "Message": "Successfully Updated."
+}
+2022-07-23 13:51:25 INFO  Logs:158 -  Output Message : Successfully Updated.
+2022-07-23 13:51:25 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:25 INFO  Logs:102 - ********* Put Request Ended *************
+2022-07-23 13:51:25 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:25 INFO  Logs:328 - ************** Schema Validation ************************* 
+2022-07-23 13:51:25 INFO  Logs:333 - Schema validation success
+2022-07-23 13:51:25 INFO  Logs:335 - Schema validation status code : 200
+2022-07-23 13:51:25 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:25 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:25 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:25 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:25 INFO  Logs:154 - {
+    "MorbidityName": "Diabetes 5",
+    "MorbidityTestId": "DIA_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:25 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:25 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:25 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:25 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:25 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:25 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:25 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:25 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:25 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:25 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:25 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:25 INFO  Logs:154 - {
+    "MorbidityName": "Diabetes Type2",
+    "MorbidityTestId": "DIA_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:25 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:25 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:25 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:25 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:25 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:25 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:25 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:25 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:25 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:25 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:25 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:25 INFO  Logs:154 - {
+    "MorbidityName": "Hypertension",
+    "MorbidityTestId": "HPT_BP",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:25 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:25 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:25 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:25 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:25 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:25 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:25 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:26 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:26 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:26 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:26 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:26 INFO  Logs:154 - {
+    "MorbidityName": "Fever test001",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:26 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:26 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:26 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:26 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:26 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:26 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:26 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:26 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:26 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:26 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:26 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:26 INFO  Logs:154 - {
+    "MorbidityName": "Fever test002",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:26 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:26 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:26 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:26 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:26 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:26 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:26 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:26 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:26 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:26 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:26 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:26 INFO  Logs:154 - {
+    "MorbidityName": "Fever test003",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:26 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:26 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:26 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:26 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:26 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:26 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:26 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:26 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:26 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:27 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:27 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:27 INFO  Logs:154 - {
+    "MorbidityName": "Fever test004",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:27 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:27 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:27 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:27 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:27 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:27 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:27 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:27 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:27 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:27 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:27 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:27 INFO  Logs:154 - {
+    "MorbidityName": "Fever test005",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:27 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:27 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:27 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:27 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:27 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:27 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:27 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:27 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:27 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:27 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:27 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:27 INFO  Logs:154 - {
+    "MorbidityName": "Fever test008",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:27 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:27 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:27 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:27 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:27 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:27 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:27 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:28 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:28 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:28 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:28 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:28 INFO  Logs:154 - {
+    "MorbidityName": "Fever test009",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:28 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:28 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:28 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:28 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:28 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:28 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:28 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:28 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:28 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:28 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:28 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:28 INFO  Logs:154 - {
+    "MorbidityName": "Fever test011",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:28 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:28 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:28 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:28 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:28 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:28 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:28 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:28 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:28 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:28 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:28 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:28 INFO  Logs:154 - {
+    "MorbidityName": "Fever test012",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:28 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:28 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:28 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:28 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:28 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:28 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:28 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:28 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:28 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:29 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:29 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:29 INFO  Logs:154 - {
+    "MorbidityName": "Fever test013",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:29 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:29 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:29 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:29 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:29 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:29 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:29 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:29 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:29 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:29 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:29 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:29 INFO  Logs:154 - {
+    "MorbidityName": "Fever test015",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:29 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:29 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:29 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:29 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:29 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:29 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:29 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:29 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:29 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:29 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:29 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:29 INFO  Logs:154 - {
+    "MorbidityName": "Fever test016",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:29 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:29 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:29 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:29 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:29 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:29 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:29 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:29 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:29 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:30 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:30 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:30 INFO  Logs:154 - {
+    "MorbidityName": "Fever test017",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:30 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:30 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:30 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:30 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:30 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:30 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:30 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:30 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:30 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:30 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:30 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:30 INFO  Logs:154 - {
+    "MorbidityName": "Fever test018",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:30 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:30 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:30 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:30 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:30 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:30 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:30 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:30 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:30 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:30 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:30 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:30 INFO  Logs:154 - {
+    "MorbidityName": "Fever test020",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:31 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:31 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:31 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:31 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:31 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:31 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:31 INFO  Logs:379 - Schema validation status code : 200
+2022-07-23 13:51:31 INFO  Logs:78 - ********* Delete Request started *************
+2022-07-23 13:51:31 INFO  Logs:79 -  URL : http://127.0.0.1:5000/api/Morbidity/
+2022-07-23 13:51:31 INFO  Logs:150 - ********* Response Body Validation Started *************
+2022-07-23 13:51:31 INFO  Logs:153 - Response Body : 
+2022-07-23 13:51:31 INFO  Logs:154 - {
+    "MorbidityName": "Fever test021",
+    "MorbidityTestId": "FEV_BLO",
+    "Message": "Successfully Deleted."
+}
+2022-07-23 13:51:31 INFO  Logs:158 -  Output Message : Successfully Deleted.
+2022-07-23 13:51:31 INFO  Logs:161 - ********* Response Body Validation Ended *************
+2022-07-23 13:51:31 INFO  Logs:86 - ********* Delete Request Ended *************
+2022-07-23 13:51:31 INFO  Logs:317 -  Response status code : 200
+2022-07-23 13:51:31 INFO  Logs:369 - ************** Schema Validation ************************* 
+2022-07-23 13:51:31 INFO  Logs:377 - Schema validation success
+2022-07-23 13:51:31 INFO  Logs:379 - Schema validation status code : 200
