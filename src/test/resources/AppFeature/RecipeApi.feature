@@ -20,45 +20,63 @@
 Feature: Validating Recipe API Request
   As a user, I must able to access data in Recipe API
 
-
-	#Background: User is Logged In
-	#Given User is in Url http://127.0.0.1:5000/
-	#When Submit username and password
-	#Then Successfuly logged In
-	
+  #Background: User is Logged In
+  #Given User is in Url http://127.0.0.1:5000/
+  #When Submit username and password
+  #Then Successfuly logged In
   @RecipeAPI
   Scenario: User access request without login
-  Given User is in Url http://127.0.0.1:5000/api/
-  When GET request is made in Url without login
-  Then The request returned with Response code 401 Unauthorised Access
-  
+    Given User is in Url Url/api/
+    When GET request is made in Url "api/Recipes/" without login
+    Then The request returned with Response code 401 Unauthorised Access
+
   Scenario: User Retrieve Recipes Data
-  Given User is in Url http://127.0.0.1:5000/api/
-  When GET request is made to Url/Recipes
-  Then The requested Recipes data is returned with Response code 200
-  
-  Scenario: User Retrieve Recipe Data based on Food Category
-  Given User is in Url http://127.0.0.1:5000/api/
-  When GET request is made to Url/Recipes/{ RecipeFoodCategory } with input RecipeFoodCategory
-  Then The requested data with input RecipeFoodCategory is returned with Response code 200
-  
-  Scenario: User Retrieve Recipe Data based on Recipe Type
-  Given User is in Url http://127.0.0.1:5000/api/
-  When GET request is made to Url/Recipes/{RecipeType} with input RecipeType
-  Then The requested data with input RecipeType is returned with Response code 200
-  
-  Scenario: User Retrieve Recipe Data based on Recipe Ingredient
-  Given User is in Url http://127.0.0.1:5000/api/
-  When GET request is made to Url/Recipes/{ RecipeIngredient } with input RecipeIngredient
-  Then The requested data with input RecipeIngredient is returned with Response code 200
-  
-  Scenario: User Retrieve Recipe Data based on Recipe Nutrient
-  Given User is in Url http://127.0.0.1:5000/api/
-  When GET request is made to Url/Recipes{ RecipeNutrient } with input RecipeNutrient
-  Then The requested data with input RecipeNutrient is returned with Response code 200
-  
-    Scenario: User Retrieve Recipe Data based on Recipe Nutrient Negative
-  Given User is in Url http://127.0.0.1:5000/api/
-  When GET request is made in Url/Recipes{ RecipeNutrient } with invalid input
-  Then The request returned with Response code 200 with msg Item Not Found
-  
+    Given Dietician API is up and running for authorized user
+    When GET request is made to enpoint as "api/Recipes/"
+    Then The requested Recipes data is returned with Response code 200
+
+  Scenario Outline: User Retrieve Recipe Data based on Food Category
+    Given Dietician API is up and running for authorized user
+    When GET request is made to with endpoint as "api/Recipes/RecipeFoodCategory=" with input RecipeFoodCategory from excel sheetname "<SheetName>" and rownumber <RowNumber>
+    Then The requested data with input RecipeFoodCategory is returned with Response code 200
+
+    Examples: 
+      | SheetName | RowNumber |
+      | GETRFC    |         1 |
+
+  Scenario Outline: User Retrieve Recipe Data based on Recipe Type
+    Given Dietician API is up and running for authorized user
+    When GET request is made to endpoint "api/Recipes/RecipeType=" with input RecipeType from excel sheetname "<SheetName>" and rownumber <RowNumber>
+    Then The requested data with input RecipeType is returned with Response code 200
+
+    Examples: 
+      | SheetName | RowNumber |
+      | GETRT     |         1 |
+
+  Scenario Outline: User Retrieve Recipe Data based on Recipe Ingredient
+    Given Dietician API is up and running for authorized user
+    When GET request is made to endpoint "api/Recipes/RecipeIngredient=" with input RecipeIngredient from excel sheetname "<SheetName>" and rownumber <RowNumber>
+    Then The requested data with input RecipeIngredient is returned with Response code 200
+
+    Examples: 
+      | SheetName | RowNumber |
+      | GETRI     |         1 |
+
+  Scenario Outline: User Retrieve Recipe Data based on Recipe Nutrient
+    Given Dietician API is up and running for authorized user
+    When GET request is made to endpoint "api/Recipes/RecipeNutrient=" with input RecipeNutrient from excel sheetname "<SheetName>" and rownumber <RowNumber>
+    Then The requested data with input RecipeNutrient is returned with Response code 200
+
+    Examples: 
+      | SheetName | RowNumber |
+      | GETRNP    |         1 |
+      | GETRNP    |         2 |
+
+  Scenario Outline: User Retrieve Recipe Data based on Recipe Nutrient Negative
+    Given Dietician API is up and running for authorized user
+    When GET request is made to endpoint "api/Recipes/RecipeNutrient=" with invalid input RecipeNutrient from excel sheetname "<SheetName>" and rownumber <RowNumber>
+    Then The request returned with Response code 200 with msg Item Not Found
+
+    Examples: 
+      | SheetName | RowNumber |
+      | GETRNN    |         1 |

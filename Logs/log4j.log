@@ -1,0 +1,13 @@
+2022-07-22 18:40:49 INFO  Logs:42 - GET request status code : 401
+2022-07-22 19:20:52 INFO  Logs:43 - GET request status code : 401
+2022-07-22 19:39:06 INFO  Logs:42 - Unauthorised Access login GET request status code : 401
+2022-07-22 19:39:06 INFO  Logs:68 - Recipes data GET request status code : 200
+2022-07-22 19:39:07 INFO  Logs:87 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-22 19:43:58 INFO  Logs:42 - Unauthorised Access login GET request status code : 401
+2022-07-22 19:43:58 INFO  Logs:68 - Recipes data GET request status code : 200
+2022-07-22 19:43:59 INFO  Logs:87 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-22 19:43:59 INFO  Logs:106 - Recipes data with RecipeType GET request status code : 200
+2022-07-22 19:43:59 INFO  Logs:124 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-22 19:43:59 INFO  Logs:142 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-22 19:43:59 INFO  Logs:142 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-22 19:43:59 INFO  Logs:161 - Recipes data with invalid RecipeNutrient GET request status code : 200
