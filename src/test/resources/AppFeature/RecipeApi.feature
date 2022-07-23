@@ -42,7 +42,8 @@ Feature: Validating Recipe API Request
 
     Examples: 
       | SheetName | RowNumber |
-      | GETRFC    |         1 |
+      | GETRFC    |         0 |
+     # | GETRFC    |         1 |
 
   Scenario Outline: User Retrieve Recipe Data based on Recipe Type
     Given Dietician API is up and running for authorized user
@@ -51,6 +52,7 @@ Feature: Validating Recipe API Request
 
     Examples: 
       | SheetName | RowNumber |
+      | GETRT     |         0 |
       | GETRT     |         1 |
 
   Scenario Outline: User Retrieve Recipe Data based on Recipe Ingredient
@@ -60,6 +62,7 @@ Feature: Validating Recipe API Request
 
     Examples: 
       | SheetName | RowNumber |
+      | GETRI     |         0 |
       | GETRI     |         1 |
 
   Scenario Outline: User Retrieve Recipe Data based on Recipe Nutrient
@@ -69,8 +72,8 @@ Feature: Validating Recipe API Request
 
     Examples: 
       | SheetName | RowNumber |
+      | GETRNP    |         0 |
       | GETRNP    |         1 |
-      | GETRNP    |         2 |
 
   Scenario Outline: User Retrieve Recipe Data based on Recipe Nutrient Negative
     Given Dietician API is up and running for authorized user
@@ -79,4 +82,5 @@ Feature: Validating Recipe API Request
 
     Examples: 
       | SheetName | RowNumber |
+      | GETRNN    |         0 |
       | GETRNN    |         1 |
