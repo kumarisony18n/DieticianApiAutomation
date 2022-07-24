@@ -13,6 +13,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.testng.Assert.assertEquals;
 import static io.restassured.RestAssured.*;
 
 public class RecipeApi {
@@ -28,6 +29,7 @@ public class RecipeApi {
 		// Write code here that turns the phrase above into concrete actions
 //		testContext.requestSpec = given().baseUri("http://127.0.0.1:5000/api/");
 		testContext.requestSpec = given().baseUri(BaseClass.BASE_URL_DIETICIAN).auth().preemptive().basic("user","pwd");
+		Logs.Log.info("**** Log Scenario: User access request without login ****" );
 		Logs.Log.info("LoggedIn with invalid credentials" );
 		
 	}
@@ -52,6 +54,7 @@ public class RecipeApi {
 		// Write code here that turns the phrase above into concrete actions
 		testContext.requestSpec = given().baseUri(BaseClass.BASE_URL_DIETICIAN).auth().preemptive()
 				.basic(BaseClass.USERNAME, BaseClass.PASSWORD);
+		
 		Logs.Log.info("LoggedIn with valid credentials" );
 
 	}
@@ -61,6 +64,7 @@ public class RecipeApi {
 		// Write code here that turns the phrase above into concrete actions
 		testContext.response = testContext.requestSpec.when().get(endpoint);
 		System.out.println(testContext.response.getBody().asPrettyString());
+		assertEquals(testContext.response.getBody().asString().contains("Achari Paneer"), true);
 
 	}
 
@@ -69,8 +73,9 @@ public class RecipeApi {
 		// Write code here that turns the phrase above into concrete actions
 		testContext.response.then().assertThat().statusCode(code);
 		System.out.println("Response code is =>  " + testContext.response.getStatusCode());
+		Logs.Log.info("**** Log Scenario: User Retrieve Recipes Data ****" );
 		Logs.Log.info("Recipes data GET request status code : " + testContext.response.getStatusCode());
-		Logs.Log.info("************** Schema Validation ************************* ");
+		Logs.Log.info("** Schema Validation ** ");
 		String responseBody = testContext.response.getBody().asString();
 		int statusCode = testContext.response.getStatusCode();
 		if (statusCode == 200) {
@@ -89,23 +94,27 @@ public class RecipeApi {
 		testContext.response = testContext.requestSpec.when()
 				.get(endpoint + testData.get(rownumber).get("RecipeFoodCategory"));
 		System.out.println(testContext.response.getBody().asPrettyString());
+		
 
 	}
 
-	@Then("The requested data with input RecipeFoodCategory is returned with Response code {int}")
-	public void the_requested_data_with_input_recipe_food_category_is_returned_with_response_code(Integer code) {
+	@Then("The requested data with input RecipeFoodCategory is returned with Response code {int} and validate {string}")
+	public void the_requested_data_with_input_recipe_food_category_is_returned_with_response_code_and_validate(Integer code, String val) {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("Response code =>  " + testContext.response.getStatusCode());
 		testContext.response.then().assertThat().statusCode(code);
+		Logs.Log.info("**** Log Scenario: User Retrieve Recipes Data  based on Food Category ****" );
 		Logs.Log.info("Recipes data with RecipeFoodCategory GET request status code : "
 				+ testContext.response.getStatusCode());
 		
-		Logs.Log.info("************** Schema Validation ************************* ");
+		Logs.Log.info("** Schema Validation ** ");
 		String responseBody = testContext.response.getBody().asString();
 		int statusCode = testContext.response.getStatusCode();
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipefc)));
 			Logs.Log.info("Schema validation success");
+			
+		assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -119,18 +128,20 @@ public class RecipeApi {
 		System.out.println(testContext.response.getBody().asPrettyString());
 	}
 
-	@Then("The requested data with input RecipeType is returned with Response code {int}")
-	public void the_requested_data_with_input_recipe_type_is_returned_with_response_code(Integer code) {
+	@Then("The requested data with input RecipeType is returned with Response code {int} and validate {string}")
+	public void the_requested_data_with_input_recipe_type_is_returned_with_response_code_and_validate(Integer code, String val) {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("Response code =>  " + testContext.response.getStatusCode());
 		testContext.response.then().assertThat().statusCode(code);
+		Logs.Log.info("**** Log Scenario: User Retrieve Recipes Data based on Recipe Type ****" );
 		Logs.Log.info("Recipes data with RecipeType GET request status code : " + testContext.response.getStatusCode());
-		Logs.Log.info("************** Schema Validation ************************* ");
+		Logs.Log.info("** Schema Validation ** ");
 		String responseBody = testContext.response.getBody().asString();
 		int statusCode = testContext.response.getStatusCode();
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipei)));
 			Logs.Log.info("Schema validation success");
+		assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -145,19 +156,21 @@ public class RecipeApi {
 		System.out.println(testContext.response.getBody().asPrettyString());
 	}
 
-	@Then("The requested data with input RecipeIngredient is returned with Response code {int}")
-	public void the_requested_data_with_input_recipe_ingredient_is_returned_with_response_code(Integer code) {
+	@Then("The requested data with input RecipeIngredient is returned with Response code {int} and validate {string}")
+	public void the_requested_data_with_input_recipe_ingredient_is_returned_with_response_code_and_validate(Integer code, String val) {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("Response code =>  " + testContext.response.getStatusCode());
 		testContext.response.then().assertThat().statusCode(code);
+		Logs.Log.info("**** Log Scenario: User Retrieve Recipes Data based on Recipe Ingredient ****" );
 		Logs.Log.info(
 				"Recipes data with RecipeIngredient GET request status code : " + testContext.response.getStatusCode());
-		Logs.Log.info("************** Schema Validation ************************* ");
+		Logs.Log.info("** Schema Validation **");
 		String responseBody = testContext.response.getBody().asString();
 		int statusCode = testContext.response.getStatusCode();
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipei)));
 			Logs.Log.info("Schema validation success");
+		assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -173,18 +186,20 @@ public class RecipeApi {
 		System.out.println(testContext.response.getBody().asPrettyString());
 	}
 
-	@Then("The requested data with input RecipeNutrient is returned with Response code {int}")
-	public void the_requested_data_with_input_recipe_nutrient_is_returned_with_response_code(Integer code) {
+	@Then("The requested data with input RecipeNutrient is returned with Response code {int} and validate {string}")
+	public void the_requested_data_with_input_recipe_nutrient_is_returned_with_response_code_and_validate(Integer code, String val) {
 		// Write code here that turns the phrase above into concrete actions
 		testContext.response.then().assertThat().statusCode(code);
+		Logs.Log.info("**** Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient ****" );
 		Logs.Log.info(
 				"Recipes data with RecipeNutrient GET request status code : " + testContext.response.getStatusCode());
-		Logs.Log.info("************** Schema Validation ************************* ");
+		Logs.Log.info("**Schema Validation** ");
 		String responseBody = testContext.response.getBody().asString();
 		int statusCode = testContext.response.getStatusCode();
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipnp)));
 			Logs.Log.info("Schema validation success");
+		assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -199,19 +214,22 @@ public class RecipeApi {
 		System.out.println(testContext.response.getBody().asPrettyString());
 	}
 
-	@Then("The request returned with Response code {int} with msg Item Not Found")
-	public void the_request_returned_with_response_code_with_msg_item_not_found(Integer code) {
+	@Then("The request returned with Response code {int} with msg Item Not Found and validate {string}")
+	public void the_request_returned_with_response_code_with_msg_item_not_found_and_validate(Integer code, String val) {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("Response code =>  " + testContext.response.getStatusCode());
 		testContext.response.then().assertThat().statusCode(code);
+
+		Logs.Log.info("****Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient Negative****" );
 		Logs.Log.info("Recipes data with invalid RecipeNutrient GET request status code : "
 				+ testContext.response.getStatusCode());
-		Logs.Log.info("************** Schema Validation ************************* ");
+		Logs.Log.info("** Schema Validation ** ");
 		String responseBody = testContext.response.getBody().asString();
 		int statusCode = testContext.response.getStatusCode();
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipnn)));
 			Logs.Log.info("Schema validation success");
+		assertEquals(testContext.response.getBody().asString().contains(val), false);
 		}
 	}
 

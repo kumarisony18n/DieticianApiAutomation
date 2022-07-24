@@ -24,63 +24,69 @@ Feature: Validating Recipe API Request
   #Given User is in Url http://127.0.0.1:5000/
   #When Submit username and password
   #Then Successfuly logged In
-  @RecipeAPI
+  @RecipeAPI @Smoke @Regression
   Scenario: User access request without login
     Given User is in Url Url/api/
     When GET request is made in Url "api/Recipes/" without login
     Then The request returned with Response code 401 Unauthorised Access
 
+  @Smoke @Regression
   Scenario: User Retrieve Recipes Data
     Given Dietician API is up and running for authorized user
     When GET request is made to enpoint as "api/Recipes/"
     Then The requested Recipes data is returned with Response code 200
 
+  @Smoke @Regression
   Scenario Outline: User Retrieve Recipe Data based on Food Category
     Given Dietician API is up and running for authorized user
     When GET request is made to with endpoint as "api/Recipes/RecipeFoodCategory=" with input RecipeFoodCategory from excel sheetname "<SheetName>" and rownumber <RowNumber>
-    Then The requested data with input RecipeFoodCategory is returned with Response code 200
+    Then The requested data with input RecipeFoodCategory is returned with Response code 200 and validate "<Validate>"
 
     Examples: 
-      | SheetName | RowNumber |
-      | GETRFC    |         0 |
-     # | GETRFC    |         1 |
+      | SheetName | RowNumber | Validate   |
+      | GETRFC    |         0 | vegetarian |
 
+  # | GETRFC    |         1 |
+  @Smoke @Regression
   Scenario Outline: User Retrieve Recipe Data based on Recipe Type
     Given Dietician API is up and running for authorized user
     When GET request is made to endpoint "api/Recipes/RecipeType=" with input RecipeType from excel sheetname "<SheetName>" and rownumber <RowNumber>
-    Then The requested data with input RecipeType is returned with Response code 200
+    Then The requested data with input RecipeType is returned with Response code 200 and validate "<Validate>"
 
     Examples: 
-      | SheetName | RowNumber |
-      | GETRT     |         0 |
-      | GETRT     |         1 |
+      | SheetName | RowNumber | Validate  |
+      | GETRT     |         0 | Lunch     |
+      | GETRT     |         1 | Breakfast |
 
+  @Smoke @Regression
   Scenario Outline: User Retrieve Recipe Data based on Recipe Ingredient
     Given Dietician API is up and running for authorized user
     When GET request is made to endpoint "api/Recipes/RecipeIngredient=" with input RecipeIngredient from excel sheetname "<SheetName>" and rownumber <RowNumber>
-    Then The requested data with input RecipeIngredient is returned with Response code 200
+    Then The requested data with input RecipeIngredient is returned with Response code 200 and validate "<Validate>"
 
     Examples: 
-      | SheetName | RowNumber |
-      | GETRI     |         0 |
-      | GETRI     |         1 |
+      | SheetName | RowNumber | Validate |
+      | GETRI     |         0 | apple    |
+      | GETRI     |         1 | flour    |
 
+  @Smoke @Regression
   Scenario Outline: User Retrieve Recipe Data based on Recipe Nutrient
     Given Dietician API is up and running for authorized user
     When GET request is made to endpoint "api/Recipes/RecipeNutrient=" with input RecipeNutrient from excel sheetname "<SheetName>" and rownumber <RowNumber>
-    Then The requested data with input RecipeNutrient is returned with Response code 200
+    Then The requested data with input RecipeNutrient is returned with Response code 200 and validate "<Validate>"
 
     Examples: 
-      | SheetName | RowNumber |
-      | GETRNP    |         0 |
-      | GETRNP    |         1 |
+      | SheetName | RowNumber | Validate  |
+      | GETRNP    |         0 | Energy 86 |
+      | GETRNP    |         1 | Protein 3 |
 
+  @Smoke @Regression
   Scenario Outline: User Retrieve Recipe Data based on Recipe Nutrient Negative
     Given Dietician API is up and running for authorized user
     When GET request is made to endpoint "api/Recipes/RecipeNutrient=" with invalid input RecipeNutrient from excel sheetname "<SheetName>" and rownumber <RowNumber>
-    Then The request returned with Response code 200 with msg Item Not Found
+    Then The request returned with Response code 200 with msg Item Not Found and validate "<Validate>"
 
     Examples: 
-      | SheetName | RowNumber |
-      | GETRNN    |         0 |
-      | GETRNN    |         1 |
+      | SheetName | RowNumber | Validate |
+      | GETRNN    |         0 | energy   |
+      | GETRNN    |         1 | protien  |

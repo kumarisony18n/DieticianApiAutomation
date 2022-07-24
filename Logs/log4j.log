@@ -431,3 +431,564 @@
 2022-07-23 14:34:12 INFO  Logs:207 - Recipes data with invalid RecipeNutrient GET request status code : 200
 2022-07-23 14:34:12 INFO  Logs:209 - ************** Schema Validation ************************* 
 2022-07-23 14:34:12 INFO  Logs:214 - Schema validation success
+2022-07-23 15:39:09 INFO  Logs:31 - LoggedIn with invalid credentials
+2022-07-23 15:39:10 INFO  Logs:47 - Unauthorised Access login GET request status code : 401
+2022-07-23 15:39:10 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:10 INFO  Logs:72 - Recipes data GET request status code : 200
+2022-07-23 15:39:10 INFO  Logs:73 - ************** Schema Validation ************************* 
+2022-07-23 15:39:10 INFO  Logs:78 - Schema validation success
+2022-07-23 15:39:10 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:11 INFO  Logs:100 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-23 15:39:11 INFO  Logs:103 - ************** Schema Validation ************************* 
+2022-07-23 15:39:11 INFO  Logs:108 - Schema validation success
+2022-07-23 15:39:11 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:11 INFO  Logs:127 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 15:39:11 INFO  Logs:128 - ************** Schema Validation ************************* 
+2022-07-23 15:39:11 INFO  Logs:133 - Schema validation success
+2022-07-23 15:39:11 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:11 INFO  Logs:127 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 15:39:11 INFO  Logs:128 - ************** Schema Validation ************************* 
+2022-07-23 15:39:11 INFO  Logs:133 - Schema validation success
+2022-07-23 15:39:11 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:11 INFO  Logs:153 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 15:39:11 INFO  Logs:155 - ************** Schema Validation ************************* 
+2022-07-23 15:39:11 INFO  Logs:160 - Schema validation success
+2022-07-23 15:39:11 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:11 INFO  Logs:153 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 15:39:11 INFO  Logs:155 - ************** Schema Validation ************************* 
+2022-07-23 15:39:11 INFO  Logs:160 - Schema validation success
+2022-07-23 15:39:11 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:11 INFO  Logs:180 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 15:39:11 INFO  Logs:182 - ************** Schema Validation ************************* 
+2022-07-23 15:39:11 INFO  Logs:187 - Schema validation success
+2022-07-23 15:39:11 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:11 INFO  Logs:180 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 15:39:11 INFO  Logs:182 - ************** Schema Validation ************************* 
+2022-07-23 15:39:11 INFO  Logs:187 - Schema validation success
+2022-07-23 15:39:11 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:12 INFO  Logs:207 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 15:39:12 INFO  Logs:209 - ************** Schema Validation ************************* 
+2022-07-23 15:39:12 INFO  Logs:214 - Schema validation success
+2022-07-23 15:39:12 INFO  Logs:55 - LoggedIn with valid credentials
+2022-07-23 15:39:12 INFO  Logs:207 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 15:39:12 INFO  Logs:209 - ************** Schema Validation ************************* 
+2022-07-23 15:39:12 INFO  Logs:214 - Schema validation success
+2022-07-23 16:00:28 INFO  Logs:32 - LoggedIn with invalid credentials
+2022-07-23 16:00:29 INFO  Logs:48 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:00:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:29 INFO  Logs:74 - Recipes data GET request status code : 200
+2022-07-23 16:00:29 INFO  Logs:75 - ************** Schema Validation ************************* 
+2022-07-23 16:00:29 INFO  Logs:80 - Schema validation success
+2022-07-23 16:00:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:30 INFO  Logs:102 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-23 16:00:30 INFO  Logs:105 - ************** Schema Validation ************************* 
+2022-07-23 16:00:30 INFO  Logs:110 - Schema validation success
+2022-07-23 16:00:30 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:30 INFO  Logs:129 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:00:30 INFO  Logs:130 - ************** Schema Validation ************************* 
+2022-07-23 16:00:30 INFO  Logs:135 - Schema validation success
+2022-07-23 16:00:30 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:30 INFO  Logs:129 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:00:30 INFO  Logs:130 - ************** Schema Validation ************************* 
+2022-07-23 16:00:30 INFO  Logs:135 - Schema validation success
+2022-07-23 16:00:30 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:30 INFO  Logs:155 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:00:30 INFO  Logs:157 - ************** Schema Validation ************************* 
+2022-07-23 16:00:30 INFO  Logs:162 - Schema validation success
+2022-07-23 16:00:30 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:30 INFO  Logs:155 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:00:30 INFO  Logs:157 - ************** Schema Validation ************************* 
+2022-07-23 16:00:30 INFO  Logs:162 - Schema validation success
+2022-07-23 16:00:30 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:30 INFO  Logs:182 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:00:30 INFO  Logs:184 - ************** Schema Validation ************************* 
+2022-07-23 16:00:30 INFO  Logs:189 - Schema validation success
+2022-07-23 16:00:30 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:30 INFO  Logs:182 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:00:30 INFO  Logs:184 - ************** Schema Validation ************************* 
+2022-07-23 16:00:30 INFO  Logs:189 - Schema validation success
+2022-07-23 16:00:30 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:31 INFO  Logs:209 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:00:31 INFO  Logs:211 - ************** Schema Validation ************************* 
+2022-07-23 16:00:31 INFO  Logs:216 - Schema validation success
+2022-07-23 16:00:31 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:00:31 INFO  Logs:209 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:00:31 INFO  Logs:211 - ************** Schema Validation ************************* 
+2022-07-23 16:00:31 INFO  Logs:216 - Schema validation success
+2022-07-23 16:01:48 INFO  Logs:32 - LoggedIn with invalid credentials
+2022-07-23 16:01:48 INFO  Logs:48 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:01:48 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:48 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:49 INFO  Logs:102 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-23 16:01:49 INFO  Logs:105 - ************** Schema Validation ************************* 
+2022-07-23 16:01:49 INFO  Logs:110 - Schema validation success
+2022-07-23 16:01:49 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:49 INFO  Logs:129 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:01:49 INFO  Logs:130 - ************** Schema Validation ************************* 
+2022-07-23 16:01:49 INFO  Logs:135 - Schema validation success
+2022-07-23 16:01:49 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:49 INFO  Logs:129 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:01:49 INFO  Logs:130 - ************** Schema Validation ************************* 
+2022-07-23 16:01:49 INFO  Logs:135 - Schema validation success
+2022-07-23 16:01:50 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:50 INFO  Logs:155 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:01:50 INFO  Logs:157 - ************** Schema Validation ************************* 
+2022-07-23 16:01:50 INFO  Logs:162 - Schema validation success
+2022-07-23 16:01:50 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:50 INFO  Logs:155 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:01:50 INFO  Logs:157 - ************** Schema Validation ************************* 
+2022-07-23 16:01:50 INFO  Logs:162 - Schema validation success
+2022-07-23 16:01:50 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:50 INFO  Logs:182 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:01:50 INFO  Logs:184 - ************** Schema Validation ************************* 
+2022-07-23 16:01:50 INFO  Logs:189 - Schema validation success
+2022-07-23 16:01:50 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:50 INFO  Logs:182 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:01:50 INFO  Logs:184 - ************** Schema Validation ************************* 
+2022-07-23 16:01:50 INFO  Logs:189 - Schema validation success
+2022-07-23 16:01:50 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:50 INFO  Logs:209 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:01:50 INFO  Logs:211 - ************** Schema Validation ************************* 
+2022-07-23 16:01:50 INFO  Logs:216 - Schema validation success
+2022-07-23 16:01:50 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:01:50 INFO  Logs:209 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:01:50 INFO  Logs:211 - ************** Schema Validation ************************* 
+2022-07-23 16:01:50 INFO  Logs:216 - Schema validation success
+2022-07-23 16:11:57 INFO  Logs:32 - LoggedIn with invalid credentials
+2022-07-23 16:11:58 INFO  Logs:48 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:11:58 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:58 INFO  Logs:74 - Recipes data GET request status code : 200
+2022-07-23 16:11:58 INFO  Logs:75 - ************** Schema Validation ************************* 
+2022-07-23 16:11:58 INFO  Logs:80 - Schema validation success
+2022-07-23 16:11:58 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:130 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:131 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:136 - Schema validation success
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:130 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:131 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:136 - Schema validation success
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:156 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:158 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:163 - Schema validation success
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:156 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:158 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:163 - Schema validation success
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:183 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:185 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:190 - Schema validation success
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:183 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:185 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:190 - Schema validation success
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:210 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:212 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:217 - Schema validation success
+2022-07-23 16:11:59 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:11:59 INFO  Logs:210 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:11:59 INFO  Logs:212 - ************** Schema Validation ************************* 
+2022-07-23 16:11:59 INFO  Logs:217 - Schema validation success
+2022-07-23 16:27:13 INFO  Logs:32 - LoggedIn with invalid credentials
+2022-07-23 16:27:14 INFO  Logs:48 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:27:14 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:14 INFO  Logs:74 - Recipes data GET request status code : 200
+2022-07-23 16:27:14 INFO  Logs:75 - ************** Schema Validation ************************* 
+2022-07-23 16:27:14 INFO  Logs:80 - Schema validation success
+2022-07-23 16:27:14 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:15 INFO  Logs:103 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-23 16:27:15 INFO  Logs:106 - ************** Schema Validation ************************* 
+2022-07-23 16:27:15 INFO  Logs:111 - Schema validation success
+2022-07-23 16:27:15 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:15 INFO  Logs:132 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:27:15 INFO  Logs:133 - ************** Schema Validation ************************* 
+2022-07-23 16:27:15 INFO  Logs:138 - Schema validation success
+2022-07-23 16:27:15 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:15 INFO  Logs:132 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:27:15 INFO  Logs:133 - ************** Schema Validation ************************* 
+2022-07-23 16:27:15 INFO  Logs:138 - Schema validation success
+2022-07-23 16:27:15 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:15 INFO  Logs:158 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:27:15 INFO  Logs:160 - ************** Schema Validation ************************* 
+2022-07-23 16:27:15 INFO  Logs:165 - Schema validation success
+2022-07-23 16:27:15 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:15 INFO  Logs:158 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:27:15 INFO  Logs:160 - ************** Schema Validation ************************* 
+2022-07-23 16:27:15 INFO  Logs:165 - Schema validation success
+2022-07-23 16:27:15 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:15 INFO  Logs:185 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:27:15 INFO  Logs:187 - ************** Schema Validation ************************* 
+2022-07-23 16:27:15 INFO  Logs:192 - Schema validation success
+2022-07-23 16:27:15 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:15 INFO  Logs:185 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:27:15 INFO  Logs:187 - ************** Schema Validation ************************* 
+2022-07-23 16:27:15 INFO  Logs:192 - Schema validation success
+2022-07-23 16:27:15 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:16 INFO  Logs:212 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:27:16 INFO  Logs:214 - ************** Schema Validation ************************* 
+2022-07-23 16:27:16 INFO  Logs:219 - Schema validation success
+2022-07-23 16:27:16 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-23 16:27:16 INFO  Logs:212 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:27:16 INFO  Logs:214 - ************** Schema Validation ************************* 
+2022-07-23 16:27:16 INFO  Logs:219 - Schema validation success
+2022-07-23 16:28:58 INFO  Logs:34 - LoggedIn with invalid credentials
+2022-07-23 16:28:58 INFO  Logs:50 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:28:58 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:28:58 INFO  Logs:76 - Recipes data GET request status code : 200
+2022-07-23 16:28:58 INFO  Logs:77 - ************** Schema Validation ************************* 
+2022-07-23 16:28:59 INFO  Logs:82 - Schema validation success
+2022-07-23 16:28:59 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:140 - Schema validation success
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:140 - Schema validation success
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:167 - Schema validation success
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:167 - Schema validation success
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:194 - Schema validation success
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:194 - Schema validation success
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:221 - Schema validation success
+2022-07-23 16:29:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:00 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:29:00 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:29:00 INFO  Logs:221 - Schema validation success
+2022-07-23 16:29:36 INFO  Logs:34 - LoggedIn with invalid credentials
+2022-07-23 16:29:36 INFO  Logs:50 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:29:36 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:37 INFO  Logs:76 - Recipes data GET request status code : 200
+2022-07-23 16:29:37 INFO  Logs:77 - ************** Schema Validation ************************* 
+2022-07-23 16:29:37 INFO  Logs:82 - Schema validation success
+2022-07-23 16:29:37 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:29:38 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:29:38 INFO  Logs:140 - Schema validation success
+2022-07-23 16:29:38 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:29:38 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:29:38 INFO  Logs:140 - Schema validation success
+2022-07-23 16:29:38 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:29:38 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:29:38 INFO  Logs:167 - Schema validation success
+2022-07-23 16:29:38 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:29:38 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:29:38 INFO  Logs:167 - Schema validation success
+2022-07-23 16:29:38 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:29:38 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:29:38 INFO  Logs:194 - Schema validation success
+2022-07-23 16:29:38 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:29:38 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:29:38 INFO  Logs:194 - Schema validation success
+2022-07-23 16:29:38 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:38 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:29:38 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:29:38 INFO  Logs:221 - Schema validation success
+2022-07-23 16:29:39 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:29:39 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:29:39 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:29:39 INFO  Logs:221 - Schema validation success
+2022-07-23 16:30:27 INFO  Logs:34 - LoggedIn with invalid credentials
+2022-07-23 16:30:28 INFO  Logs:50 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:30:28 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:28 INFO  Logs:76 - Recipes data GET request status code : 200
+2022-07-23 16:30:28 INFO  Logs:77 - ************** Schema Validation ************************* 
+2022-07-23 16:30:28 INFO  Logs:82 - Schema validation success
+2022-07-23 16:30:28 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:29 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:29 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:30:29 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:30:29 INFO  Logs:140 - Schema validation success
+2022-07-23 16:30:29 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:29 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:30:29 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:30:29 INFO  Logs:140 - Schema validation success
+2022-07-23 16:30:29 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:29 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:30:29 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:30:29 INFO  Logs:167 - Schema validation success
+2022-07-23 16:30:29 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:29 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:30:29 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:30:29 INFO  Logs:167 - Schema validation success
+2022-07-23 16:30:29 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:30 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:30:30 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:30:30 INFO  Logs:194 - Schema validation success
+2022-07-23 16:30:30 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:30 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:30:30 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:30:30 INFO  Logs:194 - Schema validation success
+2022-07-23 16:30:30 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:30 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:30:30 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:30:30 INFO  Logs:221 - Schema validation success
+2022-07-23 16:30:30 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:30:30 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:30:30 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:30:30 INFO  Logs:221 - Schema validation success
+2022-07-23 16:31:46 INFO  Logs:34 - LoggedIn with invalid credentials
+2022-07-23 16:31:47 INFO  Logs:50 - Unauthorised Access login GET request status code : 401
+2022-07-23 16:31:47 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:47 INFO  Logs:76 - Recipes data GET request status code : 200
+2022-07-23 16:31:47 INFO  Logs:77 - ************** Schema Validation ************************* 
+2022-07-23 16:31:47 INFO  Logs:82 - Schema validation success
+2022-07-23 16:31:47 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:48 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:48 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:31:48 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:31:48 INFO  Logs:140 - Schema validation success
+2022-07-23 16:31:48 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:48 INFO  Logs:134 - Recipes data with RecipeType GET request status code : 200
+2022-07-23 16:31:48 INFO  Logs:135 - ************** Schema Validation ************************* 
+2022-07-23 16:31:48 INFO  Logs:140 - Schema validation success
+2022-07-23 16:31:48 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:48 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:31:48 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:31:48 INFO  Logs:167 - Schema validation success
+2022-07-23 16:31:48 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:49 INFO  Logs:160 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-23 16:31:49 INFO  Logs:162 - ************** Schema Validation ************************* 
+2022-07-23 16:31:49 INFO  Logs:167 - Schema validation success
+2022-07-23 16:31:49 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:49 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:31:49 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:31:49 INFO  Logs:194 - Schema validation success
+2022-07-23 16:31:49 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:49 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-23 16:31:49 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-23 16:31:49 INFO  Logs:194 - Schema validation success
+2022-07-23 16:31:49 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:49 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:31:49 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:31:49 INFO  Logs:221 - Schema validation success
+2022-07-23 16:31:49 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-23 16:31:49 INFO  Logs:214 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-23 16:31:49 INFO  Logs:216 - ************** Schema Validation ************************* 
+2022-07-23 16:31:49 INFO  Logs:221 - Schema validation success
+2022-07-24 11:23:00 INFO  Logs:34 - LoggedIn with invalid credentials
+2022-07-24 11:23:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:00 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:01 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:01 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:01 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:01 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:01 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:02 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:02 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:23:02 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:33:26 INFO  Logs:32 - LoggedIn with invalid credentials
+2022-07-24 11:33:27 INFO  Logs:48 - Unauthorised Access login GET request status code : 401
+2022-07-24 11:33:27 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:28 INFO  Logs:74 - Recipes data GET request status code : 200
+2022-07-24 11:33:28 INFO  Logs:75 - ************** Schema Validation ************************* 
+2022-07-24 11:33:28 INFO  Logs:80 - Schema validation success
+2022-07-24 11:33:28 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:103 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:106 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:111 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:132 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:133 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:138 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:132 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:133 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:138 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:159 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:161 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:166 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:159 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:161 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:166 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:194 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:194 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:215 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:217 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:222 - Schema validation success
+2022-07-24 11:33:29 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:33:29 INFO  Logs:215 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:33:29 INFO  Logs:217 - ************** Schema Validation ************************* 
+2022-07-24 11:33:29 INFO  Logs:222 - Schema validation success
+2022-07-24 11:34:25 INFO  Logs:32 - LoggedIn with invalid credentials
+2022-07-24 11:34:25 INFO  Logs:48 - Unauthorised Access login GET request status code : 401
+2022-07-24 11:34:25 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:25 INFO  Logs:74 - Recipes data GET request status code : 200
+2022-07-24 11:34:25 INFO  Logs:75 - ************** Schema Validation ************************* 
+2022-07-24 11:34:26 INFO  Logs:80 - Schema validation success
+2022-07-24 11:34:26 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:26 INFO  Logs:103 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-24 11:34:26 INFO  Logs:106 - ************** Schema Validation ************************* 
+2022-07-24 11:34:26 INFO  Logs:111 - Schema validation success
+2022-07-24 11:34:26 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:26 INFO  Logs:132 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:34:26 INFO  Logs:133 - ************** Schema Validation ************************* 
+2022-07-24 11:34:26 INFO  Logs:138 - Schema validation success
+2022-07-24 11:34:26 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:26 INFO  Logs:132 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:34:27 INFO  Logs:133 - ************** Schema Validation ************************* 
+2022-07-24 11:34:27 INFO  Logs:138 - Schema validation success
+2022-07-24 11:34:27 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:27 INFO  Logs:159 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:34:27 INFO  Logs:161 - ************** Schema Validation ************************* 
+2022-07-24 11:34:27 INFO  Logs:166 - Schema validation success
+2022-07-24 11:34:27 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:27 INFO  Logs:159 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:34:27 INFO  Logs:161 - ************** Schema Validation ************************* 
+2022-07-24 11:34:27 INFO  Logs:166 - Schema validation success
+2022-07-24 11:34:27 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:27 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:34:27 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-24 11:34:27 INFO  Logs:194 - Schema validation success
+2022-07-24 11:34:27 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:27 INFO  Logs:187 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:34:27 INFO  Logs:189 - ************** Schema Validation ************************* 
+2022-07-24 11:34:27 INFO  Logs:194 - Schema validation success
+2022-07-24 11:34:27 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:27 INFO  Logs:215 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:34:27 INFO  Logs:217 - ************** Schema Validation ************************* 
+2022-07-24 11:34:27 INFO  Logs:222 - Schema validation success
+2022-07-24 11:34:27 INFO  Logs:56 - LoggedIn with valid credentials
+2022-07-24 11:34:27 INFO  Logs:215 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:34:27 INFO  Logs:217 - ************** Schema Validation ************************* 
+2022-07-24 11:34:27 INFO  Logs:222 - Schema validation success
+2022-07-24 11:41:54 INFO  Logs:32 - Log Scenario: User access request without login
+2022-07-24 11:41:54 INFO  Logs:33 - LoggedIn with invalid credentials
+2022-07-24 11:41:55 INFO  Logs:49 - Unauthorised Access login GET request status code : 401
+2022-07-24 11:41:55 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:55 INFO  Logs:76 - Log Scenario: User Retrieve Recipes Data
+2022-07-24 11:41:55 INFO  Logs:77 - Recipes data GET request status code : 200
+2022-07-24 11:41:55 INFO  Logs:78 - ************** Schema Validation ************************* 
+2022-07-24 11:41:55 INFO  Logs:83 - Schema validation success
+2022-07-24 11:41:55 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:106 - Log Scenario: User Retrieve Recipes Data  based on Food Category
+2022-07-24 11:41:56 INFO  Logs:107 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:110 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:115 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:136 - Log Scenario: User Retrieve Recipes Data based on Recipe Type
+2022-07-24 11:41:56 INFO  Logs:137 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:138 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:143 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:136 - Log Scenario: User Retrieve Recipes Data based on Recipe Type
+2022-07-24 11:41:56 INFO  Logs:137 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:138 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:143 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:164 - Log Scenario: User Retrieve Recipes Data based on Recipe Ingredient
+2022-07-24 11:41:56 INFO  Logs:165 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:167 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:172 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:164 - Log Scenario: User Retrieve Recipes Data based on Recipe Ingredient
+2022-07-24 11:41:56 INFO  Logs:165 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:167 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:172 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:193 - Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient
+2022-07-24 11:41:56 INFO  Logs:194 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:196 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:201 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:193 - Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient
+2022-07-24 11:41:56 INFO  Logs:194 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:196 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:201 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:223 - Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient Negative
+2022-07-24 11:41:56 INFO  Logs:224 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:226 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:231 - Schema validation success
+2022-07-24 11:41:56 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:41:56 INFO  Logs:223 - Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient Negative
+2022-07-24 11:41:56 INFO  Logs:224 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:41:56 INFO  Logs:226 - ************** Schema Validation ************************* 
+2022-07-24 11:41:56 INFO  Logs:231 - Schema validation success
+2022-07-24 11:47:24 INFO  Logs:32 - **** Log Scenario: User access request without login ****
+2022-07-24 11:47:24 INFO  Logs:33 - LoggedIn with invalid credentials
+2022-07-24 11:47:24 INFO  Logs:49 - Unauthorised Access login GET request status code : 401
+2022-07-24 11:47:24 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:24 INFO  Logs:76 - **** Log Scenario: User Retrieve Recipes Data ****
+2022-07-24 11:47:24 INFO  Logs:77 - Recipes data GET request status code : 200
+2022-07-24 11:47:24 INFO  Logs:78 - ** Schema Validation ** 
+2022-07-24 11:47:25 INFO  Logs:83 - Schema validation success
+2022-07-24 11:47:25 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:25 INFO  Logs:106 - **** Log Scenario: User Retrieve Recipes Data  based on Food Category ****
+2022-07-24 11:47:25 INFO  Logs:107 - Recipes data with RecipeFoodCategory GET request status code : 200
+2022-07-24 11:47:25 INFO  Logs:110 - ** Schema Validation ** 
+2022-07-24 11:47:25 INFO  Logs:115 - Schema validation success
+2022-07-24 11:47:25 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:136 - **** Log Scenario: User Retrieve Recipes Data based on Recipe Type ****
+2022-07-24 11:47:26 INFO  Logs:137 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:138 - ** Schema Validation ** 
+2022-07-24 11:47:26 INFO  Logs:143 - Schema validation success
+2022-07-24 11:47:26 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:136 - **** Log Scenario: User Retrieve Recipes Data based on Recipe Type ****
+2022-07-24 11:47:26 INFO  Logs:137 - Recipes data with RecipeType GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:138 - ** Schema Validation ** 
+2022-07-24 11:47:26 INFO  Logs:143 - Schema validation success
+2022-07-24 11:47:26 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:164 - **** Log Scenario: User Retrieve Recipes Data based on Recipe Ingredient ****
+2022-07-24 11:47:26 INFO  Logs:165 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:167 - ** Schema Validation **
+2022-07-24 11:47:26 INFO  Logs:172 - Schema validation success
+2022-07-24 11:47:26 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:164 - **** Log Scenario: User Retrieve Recipes Data based on Recipe Ingredient ****
+2022-07-24 11:47:26 INFO  Logs:165 - Recipes data with RecipeIngredient GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:167 - ** Schema Validation **
+2022-07-24 11:47:26 INFO  Logs:172 - Schema validation success
+2022-07-24 11:47:26 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:193 - **** Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient ****
+2022-07-24 11:47:26 INFO  Logs:194 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:196 - **Schema Validation** 
+2022-07-24 11:47:26 INFO  Logs:201 - Schema validation success
+2022-07-24 11:47:26 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:193 - **** Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient ****
+2022-07-24 11:47:26 INFO  Logs:194 - Recipes data with RecipeNutrient GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:196 - **Schema Validation** 
+2022-07-24 11:47:26 INFO  Logs:201 - Schema validation success
+2022-07-24 11:47:26 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:223 - ****Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient Negative****
+2022-07-24 11:47:26 INFO  Logs:224 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:226 - ** Schema Validation ** 
+2022-07-24 11:47:26 INFO  Logs:231 - Schema validation success
+2022-07-24 11:47:26 INFO  Logs:58 - LoggedIn with valid credentials
+2022-07-24 11:47:26 INFO  Logs:223 - ****Log Scenario: User Retrieve Recipes Data based on Recipe Nutrient Negative****
+2022-07-24 11:47:26 INFO  Logs:224 - Recipes data with invalid RecipeNutrient GET request status code : 200
+2022-07-24 11:47:26 INFO  Logs:226 - ** Schema Validation ** 
+2022-07-24 11:47:26 INFO  Logs:231 - Schema validation success
