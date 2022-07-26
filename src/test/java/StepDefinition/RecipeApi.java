@@ -12,8 +12,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
+import junit.framework.Assert;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.testng.Assert.assertEquals;
 import static io.restassured.RestAssured.*;
 
 public class RecipeApi {
@@ -64,7 +64,7 @@ public class RecipeApi {
 		// Write code here that turns the phrase above into concrete actions
 		testContext.response = testContext.requestSpec.when().get(endpoint);
 		System.out.println(testContext.response.getBody().asPrettyString());
-		assertEquals(testContext.response.getBody().asString().contains("Achari Paneer"), true);
+		Assert.assertEquals(testContext.response.getBody().asString().contains("Achari Paneer"), true);
 
 	}
 
@@ -90,7 +90,7 @@ public class RecipeApi {
 			String endpoint, String sheetname, int rownumber) throws InvalidFormatException, IOException {
 		// Write code here that turns the phrase above into concrete actions
 		ExcelReader reader = new ExcelReader();
-		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path, sheetname);
+		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path_Recipe, sheetname);
 		testContext.response = testContext.requestSpec.when()
 				.get(endpoint + testData.get(rownumber).get("RecipeFoodCategory"));
 		System.out.println(testContext.response.getBody().asPrettyString());
@@ -114,7 +114,7 @@ public class RecipeApi {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipefc)));
 			Logs.Log.info("Schema validation success");
 			
-		assertEquals(testContext.response.getBody().asString().contains(val), true);
+			Assert.assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -123,7 +123,7 @@ public class RecipeApi {
 			String endpoint, String sheetname, int rownumber) throws InvalidFormatException, IOException {
 		// Write code here that turns the phrase above into concrete actions
 		ExcelReader reader = new ExcelReader();
-		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path, sheetname);
+		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path_Recipe, sheetname);
 		testContext.response = testContext.requestSpec.when().get(endpoint + testData.get(rownumber).get("RecipeType"));
 		System.out.println(testContext.response.getBody().asPrettyString());
 	}
@@ -141,7 +141,7 @@ public class RecipeApi {
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipei)));
 			Logs.Log.info("Schema validation success");
-		assertEquals(testContext.response.getBody().asString().contains(val), true);
+			Assert.assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -150,7 +150,7 @@ public class RecipeApi {
 			String endpoint, String sheetname, int rownumber) throws InvalidFormatException, IOException {
 		// Write code here that turns the phrase above into concrete actions
 		ExcelReader reader = new ExcelReader();
-		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path, sheetname);
+		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path_Recipe, sheetname);
 		testContext.response = testContext.requestSpec.when()
 				.get(endpoint + testData.get(rownumber).get("RecipeIngredient"));
 		System.out.println(testContext.response.getBody().asPrettyString());
@@ -170,7 +170,7 @@ public class RecipeApi {
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipei)));
 			Logs.Log.info("Schema validation success");
-		assertEquals(testContext.response.getBody().asString().contains(val), true);
+			Assert.assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -179,7 +179,7 @@ public class RecipeApi {
 			String endpoint, String sheetname, int rownumber) throws InvalidFormatException, IOException {
 		// Write code here that turns the phrase above into concrete actions
 		ExcelReader reader = new ExcelReader();
-		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path, sheetname);
+		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path_Recipe, sheetname);
 		testContext.response = testContext.requestSpec.when()
 				.get(endpoint + testData.get(rownumber).get("RecipeNutrient"));
 		System.out.println("Response code =>  " + testContext.response.getStatusCode());
@@ -199,7 +199,7 @@ public class RecipeApi {
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipnp)));
 			Logs.Log.info("Schema validation success");
-		assertEquals(testContext.response.getBody().asString().contains(val), true);
+			Assert.assertEquals(testContext.response.getBody().asString().contains(val), true);
 		}
 	}
 
@@ -208,7 +208,7 @@ public class RecipeApi {
 			String endpoint, String sheetname, int rownumber) throws InvalidFormatException, IOException {
 		// Write code here that turns the phrase above into concrete actions
 		ExcelReader reader = new ExcelReader();
-		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path, sheetname);
+		List<Map<String, String>> testData = reader.getData(BaseClass.USERS_EXCEL_Path_Recipe, sheetname);
 		testContext.response = testContext.requestSpec.when()
 				.get(endpoint + testData.get(rownumber).get("RecipeNutrient"));
 		System.out.println(testContext.response.getBody().asPrettyString());
@@ -229,7 +229,7 @@ public class RecipeApi {
 		if (statusCode == 200) {
 			assertThat(responseBody, JsonSchemaValidator.matchesJsonSchema(new File(BaseClass.getrecipnn)));
 			Logs.Log.info("Schema validation success");
-		assertEquals(testContext.response.getBody().asString().contains(val), false);
+			Assert.assertEquals(testContext.response.getBody().asString().contains(val), false);
 		}
 	}
 

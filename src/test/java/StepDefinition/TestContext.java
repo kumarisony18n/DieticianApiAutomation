@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.xml.DOMConfigurator;
-//<<<<<<< HEAD
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -13,7 +13,6 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-import org.openqa.selenium.TakesScreenshot;
 
 import Utils.ExcelReader;
 import io.cucumber.java.After;
@@ -27,7 +26,7 @@ public class TestContext {
 	
 	public  RequestSpecification requestSpec = null;
 	public  Response response = null;
-//>>>>>>> branch 'master' of https://github.com/kumarisony18n/DieticianApiAutomation
+
 	public List<Map<String, String>> responseBody;
 	Scenario scn = null;
 	public HashMap<String, String> responsecoll;
