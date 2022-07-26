@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.xml.DOMConfigurator;
-import org.openqa.selenium.TakesScreenshot;
 
 import Utils.ExcelReader;
 import io.cucumber.java.After;

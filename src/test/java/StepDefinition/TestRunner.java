@@ -12,6 +12,7 @@ plugin = {"pretty","json:target/cucumber-reports/reports.json",
 		"junit:target/cucumber-reports/Cucumber.xml",
 		"html:target/cucumber-reports/reports2.html",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},monochrome = true,
+tags= "@Smoke and @Regression",		
 dryRun = false)
 public class TestRunner {
 
