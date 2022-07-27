@@ -266,7 +266,7 @@ public class UsersApiSteps {
 			Response response_get = given().baseUri(BaseClass.BASE_URL_DIETICIAN)
 					.auth().preemptive().basic(BaseClass.USERNAME, BaseClass.PASSWORD)
 					.when()
-					.get(BaseClass.BASE_URL_DIETICIAN +"/Users/DieticianId=" +userId);
+					.get(BaseClass.BASE_URL_DIETICIAN +"/api/Users/DieticianId=" +userId);
 			System.out.println("Response from get Request:" +response_get.asString()); 
 			
 			//making asertions for input fields from response field	
@@ -326,7 +326,7 @@ public class UsersApiSteps {
 		 Response response_get = given().baseUri(BaseClass.BASE_URL_DIETICIAN)
 					.auth().preemptive().basic(BaseClass.USERNAME, BaseClass.PASSWORD)
 					.when()
-					.get(BaseClass.BASE_URL_DIETICIAN +"/Users/UserType="+userid);
+					.get(BaseClass.BASE_URL_DIETICIAN +"/api/Users/UserType="+userid);
 		 Logs.info("Response from get Request:" +response_get.asString());
 		//making asertions for input fields from response field	
 		assertEquals(testContext.res.contains(userid), true);
